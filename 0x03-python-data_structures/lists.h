@@ -1,19 +1,18 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * struct listint_s - sin dkhbd kbv mxvbzxv xhbvzsbbvkjshjhs
+ * struct listint_s - singl nx cvn zxn   zc xbzhcbkzbkcbz
  * @n: integer
  * @next: points to the next node
  *
  * Description: singly linked list node structure
  * for project
  */
-
 typedef struct listint_s
 {
     int n;

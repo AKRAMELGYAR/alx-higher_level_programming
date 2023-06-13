@@ -1,12 +1,11 @@
 #include "lists.h"
 
 /**
- * is_palindrome - checks i dkv skbv sbsbcvsjzzbcss
+ * is_palindrome - check dk vsk dvksbv ck sb cvxkbvs vkbxjbcvjb
  * @head: double pointer to the linked list
  *
  * Return: 1 if it is, 0 if not
  */
-
 int is_palindrome(listint_t **head)
 {
 	listint_t *slow = *head, *fast = *head, *temp = *head, *dup = NULL;
@@ -49,14 +48,12 @@ int is_palindrome(listint_t **head)
 	return (0);
 }
 
-
 /**
- * reverse_listint - rever kvbh sKbc khszbczbcb zcnznccsicis
+ * reverse_listint - rever sn vsbvcx kvbksbcvx kvnzcxjvbb
  * @head: pointer to the first node in the list
  *
  * Return: pointer to the first node in the new list
  */
-
 void reverse_listint(listint_t **head)
 {
 	listint_t *prev = NULL;
